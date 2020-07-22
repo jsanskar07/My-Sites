@@ -1,0 +1,50 @@
+body{
+	background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1200/1111/Vector-woman-pink-stylish_1920x1200.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0%;
+	padding:0%;
+}
+header{
+	background-image: url(https://www.technocrazed.com/wp-content/uploads/2015/12/Pink-wallpaper-as-background-16.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	padding: 1%;	
+	text-align: center;
+	color:#C0C0C0;
+	}
+	nav {
+		text-align: center;
+	}
+nav a{
+	    background-color: rgba(218,234,213,0.60);
+		color: #000000; /* Black */
+		display: inline-block;
+		padding: 10px;
+		margin: 1%; 
+		text-decoration: none; 
+		border-radius: 5px; 
+}
+#a2{
+	background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/VS-Pink-Wallpapers-HD-Free-Download.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%; 
+}
+h2{
+	text-align: center;
+	font-size: 150%;
+	color:#c051db;
+    background-color: #d41977;
+    opacity: 0.7;
+}
+#a3{
+	background-image: url(https://www.technocrazed.com/wp-content/uploads/2015/12/Pink-wallpaper-as-background-16.jpg);
+	margin:0;
+}
+#q1{
+	opacity: 0.7;
+}
+#h1{
+	font-size: 150%;
+	color: #000000;
+}
