@@ -17,13 +17,13 @@ header{
 		text-align: center;
 	}
 nav a{
-	    background-color: rgba(218,234,213,0.60);
-		color: #000000; /* Black */
-		display: inline-block;
-		padding: 10px;
+	    	color: #000000; /* Black */
+		display: block;
+		padding-left: 15px;
 		margin: 1%; 
 		text-decoration: none; 
 		border-radius: 5px; 
+	        transition: .5s background-color;
 }
 #a2{
 	background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/VS-Pink-Wallpapers-HD-Free-Download.jpg);
@@ -51,3 +51,66 @@ h2{
 img{
 	border: 5px solid #FFFFFF;
 }
+
+nav ul{
+	list-style: none;
+	background-color: #ad0a30;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	opacity: 0.7;
+}
+
+nav li{
+	width: 20%;
+	border-right: 1px solid black;
+	height: 50px;
+	line-height: 50px;
+	font-size: 140%;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+nav li:last-child{
+	border-right: none;
+}
+
+nav li li{
+	border-right: none;
+}
+
+
+nav a:hover {
+	background-color:#595354;
+}
+
+nav a.active{
+	background-color: #ad0a30;
+	color: #fff;
+	cursor: default;
+}
+
+nav li li{
+	font-size: .8em;
+}
+
+nav > ul > li {
+	text-align: center;
+}
+
+nav > ul > li > a{
+	padding-left: 0;
+}
+
+nav li ul {
+	position: absolute;
+	display: none;
+	width: inherit;
+}
+nav li:hover ul{
+	display: block;
+}
+nav li ul li {
+	display: block;
+}
+
